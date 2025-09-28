@@ -1351,6 +1351,12 @@
             "state" : "translated",
             "value" : "Mevcut kan şekerinizi ve insülin iletiminizi görün."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看您当前的血糖值和胰岛素输注情况。"
+          }
         }
       }
     },

@@ -441,7 +441,7 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ v %2$@"
+            "value" : "%1$@ v%2$@"
           }
         },
         "nl" : {
@@ -615,6 +615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lượng Carbs còn hoạt động"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活性碳水化合物"
           }
         }
       }

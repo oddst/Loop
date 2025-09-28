@@ -1200,6 +1200,12 @@
             "state" : "translated",
             "value" : "%1$@ %2$@ , ayarladığınız yeni Maks Bazal limitinden daha yüksek olan mevcut geçici bazal oranınızı iptal edemedi. Bu, istenenden daha yüksek insülin iletimi ile sonuçlanabilir. \n\n İnsülin iletimini manuel olarak askıya almayı ve ardından yeni limit geçerliyken bazal iletimi etkinleştirmek için hemen devam etmeyi düşünün."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@%@ 无法取消当前的临时基础率，该基础率高于您新设定的最大基础率上限。这可能导致胰岛素输注量高于预期。\n\n建议您手动暂停胰岛素输注，然后立即恢复，以便根据新的上限重新执行基础输注。"
+          }
         }
       }
     },
@@ -1209,6 +1215,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
+            "value" : "%1$1@%2$2@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "%1$1@%2$2@"
           }
         }
@@ -1896,6 +1908,12 @@
             "state" : "translated",
             "value" : "%1$@ , uyarıyı cihazınızdan silemiyor"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 无法清除您设备上的警报。"
+          }
         }
       }
     },
@@ -1984,6 +2002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ insülin pompanızla iletişim kuramıyor. Uygulama pompanıza ulaşmaya çalışmaya devam edecek, ancak insülin iletim bilgileri güncellenemeyecek ve hiçbir otomasyon devam edemeyecektir.\nSorunun çözülüp çözülmediğini görmek için birkaç dakika bekleyebilir veya diğer seçenekler hakkında daha fazla bilgi edinmek için aşağıdaki butona dokunabilirsiniz."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 无法与您的胰岛素泵通信。应用将继续尝试连接胰岛素泵，但当前无法更新胰岛素输注信息，也无法继续自动化操作。\n\n您可以等待几分钟以观察问题是否自动恢复，或点击下方按钮了解其他可选操作。"
           }
         }
       }
@@ -2706,6 +2730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ перестанет работать в %2$@. До этого времени необходимо пересобрать приложение заново."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@将在%2$@停止工作。您需要在此之前重建。"
           }
         }
       }
@@ -4002,11 +4032,31 @@
             "state" : "translated",
             "value" : "Bolus iletilmeden önce bir pompanın yapılandırılması gerek."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在注射追加胰岛素前，必须先配置胰岛素泵。"
+          }
         }
       }
     },
     "Absorption Time" : {
-      "comment" : "Label for food absorption entry on add favorite food screen"
+      "comment" : "Label for food absorption entry on add favorite food screen",
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absorpsjonstid"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "吸收时间"
+          }
+        }
+      }
     },
     "AcceptRecommendedBolus" : {
       "comment" : "Action to copy the recommended Bolus value to the actual Bolus Field",
@@ -4513,6 +4563,12 @@
             "state" : "translated",
             "value" : "Lượng Carbs còn hoạt động"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活性碳水化合物"
+          }
         }
       }
     },
@@ -4804,6 +4860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaj nowe ulubione jedzenie"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加喜欢的食物"
           }
         }
       }
@@ -5398,7 +5460,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add Service"
+            "value" : "添加服务"
           }
         }
       }
@@ -5989,6 +6051,12 @@
             "state" : "translated",
             "value" : "Ilość węglowodanów"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摄入量"
+          }
         }
       }
     },
@@ -6186,6 +6254,12 @@
             "state" : "translated",
             "value" : "Aktif bir geçersiz kılma, karbonhidrat oranınızı ve insülin duyarlılığınızı değiştiriyor. Bunun bolus hesaplamanızı ve öngörülen glikozu etkilemesini istemiyorsanız geçersiz kılmayı kapatmayı düşünün."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前启用的覆盖设置正在修改您的碳水比和胰岛素敏感系数。\n如果您不希望其影响追加胰岛素计算和预测血糖，请考虑关闭该覆盖设置。"
+          }
         }
       }
     },
@@ -6268,6 +6342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karbonhidrat girişinizi kaydetmeye çalışırken bir hata oluştu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存碳水记录时出错了。"
           }
         }
       }
@@ -6505,6 +6585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Güncellenmiş bir bolus önerisi mevcuttur."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已生成新地追加胰岛素建议"
           }
         }
       }
@@ -6863,7 +6949,27 @@
       }
     },
     "Apple" : {
-      "comment" : "Default name on add favorite food screen"
+      "comment" : "Default name on add favorite food screen",
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mela"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eple"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "苹果"
+          }
+        }
+      }
     },
     "Are you sure you want to delete all history entries?" : {
       "comment" : "Action sheet confirmation message for pump history deletion",
@@ -8194,6 +8300,12 @@
             "state" : "translated",
             "value" : "Tahmini KŞ'ne bağlı olarak bolus önerilmez."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "根据您的预测血糖值，当前不建议注射追加胰岛素。"
+          }
         }
       }
     },
@@ -8722,6 +8834,12 @@
             "state" : "translated",
             "value" : "Bolus Sorunu"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加胰岛素问题"
+          }
         }
       }
     },
@@ -8810,6 +8928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolus Önerisi Güncellendi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加胰岛素建议已更新"
           }
         }
       }
@@ -8900,6 +9024,12 @@
             "state" : "translated",
             "value" : "Bolus Özeti"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加胰岛素汇总"
+          }
         }
       }
     },
@@ -8976,6 +9106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolus Çok Küçük"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加胰岛素剂量过小"
           }
         }
       }
@@ -9703,11 +9839,31 @@
             "state" : "translated",
             "value" : "Karb Girişi"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "碳水记录"
+          }
         }
       }
     },
     "Carb Quantity" : {
-      "comment" : "Label for carb quantity row on add favorite food screen"
+      "comment" : "Label for carb quantity row on add favorite food screen",
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carboidrati Assunti"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "碳水含量"
+          }
+        }
+      }
     },
     "Carb Ratio Schedule" : {
       "comment" : "Details for configuration error when carb ratio schedule is missing",
@@ -11220,6 +11376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lựa chọn khoảng thời gian tiêu hóa dài hơn cho các bữa ăn no, hoặc những bữa ăn nhiều chất béo và protein. Đây chỉ là hướng dẫn cho thuật toán Algorithm và không cần phải chính xác."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "对于大餐或含有脂肪和蛋白质的餐食，请选择较长的吸收时间。此设置仅作为算法的参考， 无需精确。"
           }
         }
       }
@@ -15059,6 +15221,12 @@
             "state" : "translated",
             "value" : "Bu yemek için karbonhidrat miktarı olarak %1$@ gram girmeyi düşündünüz mü?"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是想输入%1$@克作为此餐的碳水化合物含量？"
+          }
         }
       }
     },
@@ -15557,6 +15725,12 @@
             "state" : "translated",
             "value" : "Dozlama Stratejisi"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "给药策略"
+          }
         }
       }
     },
@@ -15989,6 +16163,12 @@
             "state" : "translated",
             "value" : "Önerilen bolus miktarı için bir ölçüm cihazından bir kan şekeri girin."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入血糖仪测得的血糖值，以获取推荐的追加胰岛素剂量。"
+          }
         }
       }
     },
@@ -16071,6 +16251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolus girin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入追加胰岛素剂量"
           }
         }
       }
@@ -17013,6 +17199,12 @@
             "state" : "translated",
             "value" : "Ayarlarda izin verilen maksimum bolusu aşıyor"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超出设定的最大追加胰岛素剂量限制"
+          }
         }
       }
     },
@@ -17462,7 +17654,15 @@
       }
     },
     "Favorite Foods" : {
-      "comment" : "Title for Favorite Foods view"
+      "comment" : "Title for Favorite Foods view",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喜欢的食物"
+          }
+        }
+      }
     },
     "FAVORITE FOODS" : {
       "comment" : "The section title for Carb entry screen where Favorite Foods can be selected",
@@ -17501,6 +17701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ULUBIONE JEDZENIE"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喜欢的食物"
           }
         }
       }
@@ -17846,6 +18052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тип еды"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "食物类型"
           }
         }
       }
@@ -21071,6 +21283,12 @@
             "state" : "translated",
             "value" : "Nieprawidłowy czas absorpcji: %1$@ godz"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无效的吸收时间：%1$@ 小时"
+          }
         }
       }
     },
@@ -21141,6 +21359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geçersiz Bolus Miktarı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加胰岛素剂量无效"
           }
         }
       }
@@ -21833,6 +22057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Büyük Yemek Girildi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已记录大份餐食"
           }
         }
       }
@@ -22822,6 +23052,12 @@
             "state" : "translated",
             "value" : "Loop, Bluetooth ayarlarınızla ilgili bir sorun algıladı ve Bluetooth etkinleştirilene kadar başarılı bir şekilde çalışmayacaktır. KŞ okumaları almayacaksınız veya bolus yapamayacaksınız."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop 检测到您的蓝牙设置存在问题，在蓝牙启用之前将无法正常工作。\n您将无法接收血糖读数，也无法注射追加胰岛素。"
+          }
         }
       }
     },
@@ -23016,7 +23252,21 @@
       }
     },
     "Loop normally gives 40% of your predicted insulin needs each dosing cycle.\n\nWhen the Glucose Based Partial Application experiment is enabled, Loop will vary the percentage of recommended bolus delivered each cycle with glucose level.\n\nNear correction range, it will use 20% (similar to Temp Basal), and gradually increase to a maximum of 80% at high glucose (200 mg/dL, 11.1 mmol/L).\n\nPlease be aware that during fast rising glucose, such as after an unannounced meal, this feature, combined with velocity and retrospective correction effects, may result in a larger dose than your ISF would call for." : {
-      "comment" : "Description of Glucose Based Partial Application toggle."
+      "comment" : "Description of Glucose Based Partial Application toggle.",
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop gir normalt 40 % av det forventede insulinbehovet ditt i hver doseringssyklus. Når eksperimentet Glukosebasert delvis tilførsel er aktivert, vil Loop variere prosentandelen av anbefalt bolus som gis i hver syklus med glukosenivået.\n\nI nærheten av korreksjonsområdet vil den bruke 20 % (på samme måte som Temp Basal), og gradvis øke til maksimalt 80 % ved høyt glukosenivå (200 mg/dL, 11,1 mmol/L). Vær oppmerksom på at ved raskt stigende glukose, for eksempel etter et uanmeldt måltid, kan denne funksjonen, kombinert med hastighet og retrospektive korreksjonseffekter, resultere i en større dose enn det ISF-en din ville ha krevd."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop 通常在每个给药周期中提供您预测胰岛素需求的 40%。\n\n启用“基于血糖的部分给药实验功能”后，Loop 将根据血糖水平调整每个周期实际注射的推荐追加胰岛素比例。\n\n当血糖接近矫正目标范围时，仅注射 20%（类似于临时基础率），血糖升高时比例会逐步增加，在高血糖状态（200 mg/dL，11.1 mmol/L）时最高可达 80%。\n\n请注意，当血糖快速上升（例如未申报的进食）时，该功能与血糖变化速度及回顾性矫正机制叠加，可能导致注射剂量超过由胰岛素敏感系数（ISF）计算出的剂量。"
+          }
+        }
+      }
     },
     "Loop will automatically bolus when insulin needs are above scheduled basal, and will use temporary basal rates when needed to reduce insulin delivery below scheduled basal." : {
       "comment" : "Description string for automatic bolus dosing strategy",
@@ -23097,6 +23347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loop, insülin ihtiyaçları programlanan bazalın üzerine çıktığında otomatik olarak bolus yapacak ve gerektiğinde insülin iletimini programlanan bazalın altına düşürmek için geçici bazal oranları kullanacaktır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当所需胰岛素高于计划基础率时，Loop 将自动注射追加胰岛素；当所需胰岛素低于计划基础率时，则使用临时基础率以减少胰岛素输注"
           }
         }
       }
@@ -23263,6 +23519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loop, insülin iletimini artırmak ve azaltmak için geçici bazal oranlar ayarlayacaktır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop 将设置临时基础率，以增加或减少胰岛素输注。"
           }
         }
       }
@@ -23885,6 +24147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yemek Bolusu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "餐时注射"
           }
         }
       }
@@ -25043,7 +25311,15 @@
       }
     },
     "New Favorite Food" : {
-      "comment" : "Title of new favorite food screen"
+      "comment" : "Title of new favorite food screen",
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny favorittmat"
+          }
+        }
+      }
     },
     "Nightscout" : {
       "comment" : "The title of the Nightscout service",
@@ -25678,6 +25954,12 @@
             "state" : "translated",
             "value" : "Son KŞ Yok"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无近期血糖数据"
+          }
         }
       }
     },
@@ -25766,6 +26048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son KŞ Verisi Yok"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无近期血糖数据记录"
           }
         }
       }
@@ -25856,6 +26144,12 @@
             "state" : "translated",
             "value" : "Son Pompa Verisi Yok"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有最近的泵数据"
+          }
         }
       }
     },
@@ -25932,6 +26226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hayır, miktarı düzenle"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不，编辑摄入量"
           }
         }
       }
@@ -26822,6 +27122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好的"
           }
         }
       }
@@ -30287,6 +30593,12 @@
             "state" : "translated",
             "value" : "Önerilen Bolus Maksimum Bolusu Aşıyor"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推荐追加胰岛素剂量超出最大限制"
+          }
         }
       }
     },
@@ -31057,6 +31369,12 @@
             "state" : "translated",
             "value" : "Zapisz jako ulubione jedzenie"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存为喜欢的食物"
+          }
         }
       }
     },
@@ -31073,6 +31391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagre og gi bolus"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存碳水摄入量并开始注射"
           }
         }
       }
@@ -31162,6 +31486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolus olmadan Kaydet"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅保存，不注射追加胰岛素"
           }
         }
       }
@@ -31273,6 +31603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybór ulubionego jedzenia na ekranie wprowadzania węglowodanów powoduje automatyczne wypełnienie pól ilości węglowodanów, rodzaju jedzenia i czasu wchłaniania! Dotknij przycisku dodawania poniżej, aby stworzyć swoje pierwsze ulubione jedzenie!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在碳水记录界面选择一个常用食物时，系统会自动填充碳水含量、食物类型和吸收时间等字段！点击下方的添加按钮，创建你的第一个常用食物吧！"
           }
         }
       }
@@ -33169,6 +33505,12 @@
             "state" : "translated",
             "value" : "Eklemek için dokunun"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击添加"
+          }
         }
       }
     },
@@ -33376,6 +33718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Durdurmak için dokunun"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击停止"
           }
         }
       }
@@ -34562,6 +34910,12 @@
             "state" : "translated",
             "value" : "Эта опция применима только в том случае, если для стратегии дозирования петли установлено значение «Автоматический болюс»."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此选项仅在 Loop 的给药策略设为“自动追加胰岛素”时适用。"
+          }
         }
       }
     },
@@ -35317,6 +35671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karb Girişi Kaydedilemiyor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法保存碳水记录"
           }
         }
       }
@@ -37799,6 +38159,12 @@
             "state" : "translated",
             "value" : "Evet"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是"
+          }
         }
       }
     },
@@ -38515,6 +38881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pompa verileriniz eski. %1$@ bir bolus miktarı öneremez."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您的胰岛素泵数据已过期。%1$@ 无法推荐追加胰岛素剂量。"
           }
         }
       }

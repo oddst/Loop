@@ -200,6 +200,12 @@
             "state" : "translated",
             "value" : "Otomatik Bolus"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动追加胰岛素"
+          }
         }
       }
     },
@@ -282,6 +288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sadece Geçici Bazal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅临时基础率"
           }
         }
       }
